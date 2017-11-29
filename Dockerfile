@@ -44,7 +44,7 @@ RUN npm install
 RUN chmod -R 777 /data 
 RUN chmod -R 777 /usr/src/node-red/
 
-
+RUN npm install node-red-contrib-redis
 
 
 
